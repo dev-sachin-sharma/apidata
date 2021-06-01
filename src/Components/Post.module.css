@@ -2,11 +2,10 @@
   width: 80%;
   margin: 0px auto;
   padding: 10px;
-  border: 2px solid #e0d8d8;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -15,7 +14,12 @@
   flex: 1 1 250px;
   border-radius: 20px;
   border: 5px solid #d9afd9;
-  background-color: #85ffbd;
-  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  background-color: #5b6467;
+  background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
   padding: 10px;
+}
+
+
+.postCard :is(h3){
+  color: #ffffff;
 }
